@@ -21,15 +21,23 @@ This lab stands to prepare the moderngl development environment. Below the steps
 ## How to run your program
 
 ```
-# Update this section with instructions on how to run your programs. 
+#Program 1: Install the next dependencies
+- pip install moderngl 
+- pip install moderngl[headless]
+- pip install moderngl-window
 
-# Consider that these instructions will be executed 
-in a completely new linux-based machine (Ubuntu 22.04),
-so, instructions for dependencies installation must be added.
+#Program 2: Install the next dependencies
+- pip install numpy
+- pip install pyglm
 
-# It's highly recommended to use python virtual envs. 
-You may take a look on:
-https://docs.python.org/3/library/venv.html
+#Program 3: Install the next dependencies
+- pip install objloader
+- pip install pillow
+
+Change the following lines of the code according to the name and the path of your images (Tec Logo)
+Line 109: put your image path, for instance: self.texture = ImageTexture('itesm.jpg')
+Line 111: put your image path, for instance: self.car_geometry = ModelGeometry('lowpoly_toy_car.obj')
+Line 114: put your image path,  self.crate_geometry = ModelGeometry('crate.obj')
 ```
 
 ## Grading Policy
