@@ -38,6 +38,8 @@ Change the following lines of the code according to the name and the path of you
 Line 109: put your image path, for instance: self.texture = ImageTexture('itesm.jpg')
 Line 111: put your image path, for instance: self.car_geometry = ModelGeometry('lowpoly_toy_car.obj')
 Line 114: put your image path,  self.crate_geometry = ModelGeometry('crate.obj')
+
+And that is it! You should be able to run the three codes without problems
 ```
 
 ## Grading Policy
