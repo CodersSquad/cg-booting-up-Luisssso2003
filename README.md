@@ -25,6 +25,7 @@ This lab stands to prepare the moderngl development environment. Below the steps
 - pip install moderngl 
 - pip install moderngl[headless]
 - pip install moderngl-window
+- pip install pygame
 
 #Program 2: Install the next dependencies
 - pip install numpy
@@ -33,3 +34,18 @@ This lab stands to prepare the moderngl development environment. Below the steps
 #Program 3: Install the next dependencies
 - pip install objloader
 - pip install pillow
+
+Change the following lines of the code according to the name and the path of your images (Tec Logo)
+Line 109: put your image path, for instance: self.texture = ImageTexture('itesm.jpg')
+Line 111: put your image path, for instance: self.car_geometry = ModelGeometry('lowpoly_toy_car.obj')
+Line 114: put your image path,  self.crate_geometry = ModelGeometry('crate.obj')
+
+And that is it! You should be able to run the three codes without problems
+```
+
+## Grading Policy
+
+- 25% - `01_hello_world.py` is running with no errors
+- 25% - `06_multiple_objects.py` is running with no errors
+- 25% - `09_models_and_images.py` is running with the requested change (TEC logo texture)
+- 25% - Documentation on how to run your programs
