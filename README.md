@@ -25,6 +25,7 @@ This lab stands to prepare the moderngl development environment. Below the steps
 - pip install moderngl 
 - pip install moderngl[headless]
 - pip install moderngl-window
+- pip install pygame
 
 #Program 2: Install the next dependencies
 - pip install numpy
