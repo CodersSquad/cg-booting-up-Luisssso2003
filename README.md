@@ -21,20 +21,15 @@ This lab stands to prepare the moderngl development environment. Below the steps
 ## How to run your program
 
 ```
-# Update this section with instructions on how to run your programs. 
+#Program 1: Install the next dependencies
+- pip install moderngl 
+- pip install moderngl[headless]
+- pip install moderngl-window
 
-# Consider that these instructions will be executed 
-in a completely new linux-based machine (Ubuntu 22.04),
-so, instructions for dependencies installation must be added.
+#Program 2: Install the next dependencies
+- pip install numpy
+- pip install pyglm
 
-# It's highly recommended to use python virtual envs. 
-You may take a look on:
-https://docs.python.org/3/library/venv.html
-```
-
-## Grading Policy
-
-- 25% - `01_hello_world.py` is running with no errors
-- 25% - `06_multiple_objects.py` is running with no errors
-- 25% - `09_models_and_images.py` is running with the requested change (TEC logo texture)
-- 25% - Documentation on how to run your programs
+#Program 3: Install the next dependencies
+- pip install objloader
+- pip install pillow
